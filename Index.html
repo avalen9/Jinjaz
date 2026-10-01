@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Jinja | Gentle Hygiene Essentials Delivered</title>
+  <meta name="description" content="Jinja sells gentle, affordable hand wash, body wash, shampoo and sanitizer in Tuguegarao City. Order online for fast delivery.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Full-screen Dynamic Wave Background Canvas -->
+  <canvas id="waves"></canvas>
+
+  <!-- Header & Navigation -->
+  <header>
+    <div class="wrap">
+      <nav>
+        <a href="#home" class="logo">
+          <i></i><span class="brand">Jinja</span>
+        </a>
+        <div class="links" id="links">
+          <a href="#about">About</a>
+          <a href="#products">Products</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#brand">Brand</a>
+          <a href="#plan">Strategy</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="tools">
+          <div class="sw" id="sw">
+            <u></u>
+            <button data-t="dark" aria-label="Dark mode">☾</button>
+            <button data-t="light" aria-label="Light mode">☀</button>
+            <button data-t="pink" aria-label="Pink mode">✿</button>
+          </div>
+          <button class="btn" id="cartBtn" aria-label="Open cart">
+            Cart <span id="cnt">0</span>
+          </button>
+          <button class="btn o" id="menu" aria-label="Menu">Menu</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="wrap hero">
+      <div>
+        <h1>Clean feels <span class="g">effortless.</span></h1>
+        
+        <!-- Symmetrical 2x2 Info Grid -->
+        <div class="who">
+          <div><strong>Who</strong><br>Jinja, a local hygiene brand</div>
+          <div><strong>What</strong><br>Hand wash, body wash, shampoo, sanitizer</div>
+          <div><strong>Why</strong><br>Gentle, affordable, delivered</div>
+          <div><strong>For</strong><br>Students and families</div>
+        </div>
+
+        <div class="row">
+          <a href="#products" class="btn">Shop Now</a>
+          <a href="#about" class="btn o">Learn More</a>
+          <a href="#pricing" class="btn o">Order Today</a>
+        </div>
+      </div>
+
+      <!-- Hero Visual: Official Jinja Brand Logo Emblem -->
+      <div class="stage" id="stage">
+        <div class="orb"></div>
+        <div class="ring"></div>
+        <div class="hero-brand-card" id="hb">
+          <div class="hero-avatar">
+            <img src="Jinjaz.jpg" alt="Official Jinja Logo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="wrap">
+        <h2 class="rv">Our business <span class="g">concept</span></h2>
+        <p class="rv lead" style="max-width:760px">
+          <strong>Jinja</strong> is an online hygiene brand in Tuguegarao City. We solve the problem of <strong>harsh and expensive</strong> hygiene products by offering <strong>gentle, skin-tested</strong> essentials at student-friendly prices. Customers find us on Facebook, Instagram, TikTok and Google, then order from their phones and get <strong>fast local delivery</strong>.
+        </p>
+        <div id="five"></div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+      <div class="wrap">
+        <h2 class="rv">Products <span class="g">&amp; services</span></h2>
+        <p class="rv lead">Features tell. <strong>Benefits sell.</strong> Every product shows what it is, what it does for you and when you can get it.</p>
+        <div class="grid" id="grid"></div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing">
+      <div class="wrap">
+        <h2 class="rv">Simple <span class="g">pricing</span></h2>
+        <div class="grid" id="bundles"></div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+      <div class="wrap">
+        <h2 class="rv">Gallery</h2>
+        <p class="rv">Tap a bottle to see it.</p>
+        <div class="gal" id="gal"></div>
+      </div>
+    </section>
+
+    <!-- Brand Kit Section -->
+    <section id="brand">
+      <div class="wrap split">
+        <div class="rv">
+          <h2>Digital <span class="g">brand kit</span></h2>
+          <p><strong>Name:</strong> Jinja &nbsp; <strong>Tagline:</strong> Pure. Gentle. Jinja.</p>
+          <p><strong>Personality:</strong> calm, trustworthy, modern. <strong>Tone:</strong> friendly and clear. <strong>Images:</strong> clean product shots on soft gradients.</p>
+          <p><strong>Fonts:</strong> Sora Bold for headings, Sora Regular for body. <strong>Colors</strong> (tap to copy):</p>
+          <div class="pal" id="pal"></div>
+          <div style="display:flex;gap:18px;align-items:center">
+            <div class="pfp">
+              <img src="Jinjaz.jpg" alt="Jinja Official Emblem">
+            </div>
+            <p style="margin:0">Official brand insignia</p>
+          </div>
+        </div>
+        <div class="rv">
+          <div class="card">
+            <h3>Logo</h3>
+            <div class="logo" style="margin:12px 0;font-size:2rem">
+              <i style="width:38px;height:38px"></i><span class="brand">Jinja</span>
+            </div>
+          </div>
+          <div class="banner">
+            <strong style="color:#fff;font-size:1.3rem">Foaming Hand Wash, ₱149</strong>
+            <p style="color:#fff;margin:6px 0 14px;opacity:.9">Soft hands. Clean feel. Order today.</p>
+            <a href="#products" class="btn o" style="color:#fff;border-color:#fff">Order Today</a>
+            <p style="color:#fff;font-size:.7rem;margin:12px 0 0;opacity:.8">Promotional banner</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Business Strategy Section -->
+    <section id="plan">
+      <div class="wrap">
+        <h2 class="rv">Business <span class="g">strategy</span></h2>
+        <p class="rv">Everything behind the website, in one place.</p>
+        <div class="tabs" id="tabs"></div>
+        <div id="panel" class="panel"></div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq">
+      <div class="wrap" style="max-width:760px">
+        <h2 class="rv">Frequently <span class="g">asked</span></h2><br>
+        <details>
+          <summary>Are Jinja products safe for sensitive skin?</summary>
+          <p>Yes. Every formula is pH-balanced, paraben-free and skin-tested.</p>
+        </details>
+        <details>
+          <summary>How long does delivery take?</summary>
+          <p>Within 24 hours in Tuguegarao City and 2 to 4 days for nearby areas.</p>
+        </details>
+        <details>
+          <summary>What payment methods do you accept?</summary>
+          <p>Cash on delivery, GCash and bank transfer.</p>
+        </details>
+        <details>
+          <summary>Can I return a product?</summary>
+          <p>Message us within 3 days if an item arrives damaged and we will replace it.</p>
+        </details>
+        <details>
+          <summary>Do you offer bulk orders?</summary>
+          <p>Yes. Ask about dorm, office and event bundles.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="wrap split">
+        <div class="rv">
+          <h2>Contact <span class="g">us</span></h2>
+          <p>
+            <strong>Email:</strong> hello@jinja.example<br>
+            <strong>Messenger:</strong> facebook.com/jinja<br>
+            <strong>Location:</strong> Tuguegarao City, Cagayan
+          </p>
+        </div>
+        <form class="card rv" id="cf">
+          <div id="cfF"></div>
+          <button class="btn">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="wrap">
+      © 2026 <span class="brand">Jinja</span> · HPC103 Applied Business Tools &amp; Technologies
+    </div>
+  </footer>
+
+  <!-- Drawer Cart & Modal Overlay -->
+  <div id="veil"></div>
+  <aside id="drawer" aria-label="Cart">
+    <div style="display:flex;justify-content:space-between;align-items:center">
+      <h3>Your order</h3>
+      <button class="btn o" id="close" style="padding:8px 14px">Close</button>
+    </div>
+    <div id="items" style="margin:14px 0;flex:1"></div>
+    <div id="total" style="display:flex;justify-content:space-between;font-weight:700;margin-bottom:12px"></div>
+    <form id="order">
+      <div id="orF"></div>
+      <button class="btn" style="width:100%">Place order</button>
+    </form>
+  </aside>
+
+  <!-- Feedback Toast Notification -->
+  <div id="toast"></div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
